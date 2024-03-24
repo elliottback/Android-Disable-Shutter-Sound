@@ -13,3 +13,8 @@ Disable forced shutter sound on Androids
 ```shell
 adb shell settings put system csc_pref_camera_forced_shuttersound_key 0
 ```
+
+# Notes
+
+* You may need to use a "correct" USB cable, try another if device list is empty
+* You will need to reapply this setting after any device software updates
